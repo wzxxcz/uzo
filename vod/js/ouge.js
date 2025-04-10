@@ -1,5 +1,5 @@
-//@name:[盘]讴歌盘
 //@version:3
+//@name:[盘]欧歌盘
 //@webSite:https://woog.nxog.eu.org
 //@remark:
 const appConfig = {
@@ -43,7 +43,7 @@ async function getClassList(args) {
         },
         {
             type_id: '2',
-            type_name: '欧哥剧集',
+            type_name: '欧歌剧集',
             hasSubclass: false,
         },
         {
@@ -52,19 +52,23 @@ async function getClassList(args) {
             hasSubclass: false,
         },
         {
+            type_id: '5',
+            type_name: '欧歌短剧',
+            hasSubclass: false,
+        },
+        {
             type_id: '4',
             type_name: '欧歌综艺',
             hasSubclass: false,
         },
         {
-            type_id: '5',
-            type_name: '欧歌短剧',
+            type_id: '21',
+            type_name: '欧歌教材',
             hasSubclass: false,
         },
     ]
     return JSON.stringify(backData)
 }
-
 async function getSubclassList(args) {
     let backData = new RepVideoSubclassList()
     return JSON.stringify(backData)
@@ -73,7 +77,6 @@ async function getSubclassVideoList(args) {
     var backData = new RepVideoList()
     return JSON.stringify(backData)
 }
-
 /**
  * 获取分类视频列表
  * @param {UZArgs} args
@@ -203,6 +206,7 @@ async function searchVideo(args) {
             appConfig.webSite
         )}/index.php/vod/search/page/${args.page}/wd/${args.searchWord}.html`
         let repData = await req(searchUrl)
+
         const $ = cheerio.load(repData.data)
         let items = $('.module-search-item')
 
