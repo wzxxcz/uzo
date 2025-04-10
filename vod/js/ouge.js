@@ -61,9 +61,9 @@ async function getClassList(args) {
             type_name: '欧歌短剧',
             hasSubclass: false,
         },
-        {
-            type_id: '25',
-            type_name: '欧歌教材',
+          {
+            type_id: '21',
+            type_name: '欧歌综合',
             hasSubclass: false,
         },
     ]
@@ -78,7 +78,6 @@ async function getSubclassVideoList(args) {
     var backData = new RepVideoList()
     return JSON.stringify(backData)
 }
-
 /**
  * 获取分类视频列表
  * @param {UZArgs} args
