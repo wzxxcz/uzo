@@ -1,4 +1,4 @@
-//@name:[盘]欧歌盘
+//@name:[盘]讴歌盘
 //@version:2
 //@webSite:https://woog.nxog.eu.org
 //@remark:
