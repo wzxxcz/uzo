@@ -1,4 +1,4 @@
-//@name:[盘]讴歌盘
+//@name:[盘]讴歌盘备
 //@version:2
 //@webSite:https://woog.xn--dkw.xn--6qq986b3xl
 //@remark:
