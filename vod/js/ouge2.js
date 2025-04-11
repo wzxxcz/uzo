@@ -3,7 +3,7 @@
 //@webSite:https://woog.xn--dkw.xn--6qq986b3xl
 //@remark:
 const appConfig = {
-    _webSite: 'https://woog.nxog.eu.org',
+    _webSite: 'https://woog.xn--dkw.xn--6qq986b3xl',
     /**
      * 网站主页，uz 调用每个函数前都会进行赋值操作
      * 如果不想被改变 请自定义一个变量
