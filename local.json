@@ -142,8 +142,15 @@
     "type": 101
   },
   {
+    "name": "[盘]讴歌盘备",
+    "version": 2,
+    "webSite": "https://woog.xn--dkw.xn--6qq986b3xl",
+    "api": "vod/js/ouge2.js",
+    "type": 101
+  },
+  {
     "name": "[盘]讴歌盘",
-    "version": 3,
+    "version": 2,
     "webSite": "https://woog.nxog.eu.org",
     "api": "vod/js/ouge.js",
     "type": 101
