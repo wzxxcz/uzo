@@ -14,7 +14,7 @@
 # 订阅
 
 ```
-https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/uzAio.zip
+https://raw.githubusercontent.com/wzxxcz/uzo/refs/heads/main/uzAio.zip
 ```
 
 # 添加方式
